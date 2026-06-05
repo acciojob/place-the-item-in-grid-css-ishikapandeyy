@@ -1,2 +1,22 @@
-
+.holder{
+	display:grid;
+	grid-template-columns:repeat(2,200px)
+}
+.item{
+	width:100px;
+	border:1px solid white;
+	display:grid;
+}
+.item-1{
+	background-color:pink;
+}
+.item-2{
+	background-color:darkorange;
+}
+.item-3{
+	background-color:greenyellow;
+}
+.item-4{
+	background-color:blueviolet;
+}
 /* Your CSS Code here. */
